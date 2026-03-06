@@ -1,0 +1,36 @@
+{
+  "name": "DRIFT — Ride Smarter",
+  "short_name": "DRIFT",
+  "description": "Book rides instantly with DRIFT. Fast, safe, and affordable.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "categories": ["travel", "lifestyle"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Book a Ride",
+      "short_name": "Ride",
+      "description": "Quickly book a ride",
+      "url": "/index.html",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
